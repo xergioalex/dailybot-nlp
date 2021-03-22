@@ -22,13 +22,15 @@ This prototype aims to address all of these requirements.
 
 Here is a rundown on the files in the repository.
 
+The "Chatbot.ipynb" file is a comprehensive python notebook file that shows all the steps taken to build the chatbot and utilize it. It covers the machine learning and natural language processing techniques used to build the model and train it to classify user intent. It then shows how the chatbot uses the model in tandem with its response generator.
+
 The "data_en" and "data_es" files are json files that store the data used to train the models. The models are saved in the repo as "models_en.h5" and "models_es.h5". 
 
 The "test_chatbot.py" file is a python file that allows users to input queries for the chatbot. It will naturally require the proper libraries and modules to run correctly. The dependencies for the code is recorded in the "requirements.txt" file. 
 
 The "UserObjects.py" file is a python file that creates classes and objects that are used to imitate user data. The classes in this file are imported into the code used to run the chatbot. 
 
-Finally, the "Chatbot.ipynb" file is a comprehensive python notebook file that shows all the steps taken to build the chatbot and utilize it. It covers the machine learning and natural language processing techniques used to build the model and train it to classify user intent. It then shows how the chatbot uses the model in tandem with its response generator.
+
 
 ## Running the Code
 
